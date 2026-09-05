@@ -5,6 +5,7 @@ node_modules/
 out/
 .DS_Store
 npm-debug.log*
+<<<<<<< HEAD
 
 node_modules/
 .next/
@@ -16,3 +17,5 @@ backend/storage/
 backend/*.db
 __pycache__/
 *.pyc
+=======
+>>>>>>> 96caef8b5731e0359bc665a7d85c03e5a003a67a

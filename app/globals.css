@@ -19,4 +19,7 @@ button:disabled { cursor: not-allowed; }
 .markdown-content pre code { background: transparent; padding: 0; }.markdown-content table { width: 100%; border-collapse: collapse; margin: 1rem 0; }
 .markdown-content th,.markdown-content td { border: 1px solid rgba(255,255,255,.1); padding: .55rem .7rem; text-align: left; }.markdown-content th { background: rgba(255,255,255,.04); color: #f8fafc; }
 .markdown-content hr { border: 0; border-top: 1px solid rgba(255,255,255,.1); margin: 1.5rem 0; }
+<<<<<<< HEAD
 .toolbar{display:grid;place-items:center;border:1px solid rgba(255,255,255,.1);border-radius:.55rem;padding:.4rem;color:#cbd5e1}.toolbar:hover{background:rgba(255,255,255,.05)}.card{border:1px solid rgba(255,255,255,.1);background:rgba(255,255,255,.03);border-radius:1rem;padding:1.35rem}.field{width:100%;border:1px solid rgba(255,255,255,.1);background:#020617;border-radius:.7rem;padding:.65rem .8rem;color:white;outline:none}.field:focus{border-color:rgba(103,232,249,.4)}
+=======
+>>>>>>> 96caef8b5731e0359bc665a7d85c03e5a003a67a

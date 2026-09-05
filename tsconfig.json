@@ -1,6 +1,10 @@
 {
   "compilerOptions": {
+<<<<<<< HEAD
     "target": "ES2017",
+=======
+    "target": "es2017",
+>>>>>>> 96caef8b5731e0359bc665a7d85c03e5a003a67a
     "lib": [
       "dom",
       "dom.iterable",
@@ -36,7 +40,11 @@
     ".next/dev/types/**/*.ts"
   ],
   "exclude": [
+<<<<<<< HEAD
     "node_modules",
     "build"
+=======
+    "node_modules"
+>>>>>>> 96caef8b5731e0359bc665a7d85c03e5a003a67a
   ]
 }

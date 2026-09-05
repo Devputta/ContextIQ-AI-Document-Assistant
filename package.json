@@ -1,24 +1,43 @@
 {
+<<<<<<< HEAD
   "name": "contextiq",
+=======
+  "name": "contextiq-day3",
+>>>>>>> 96caef8b5731e0359bc665a7d85c03e5a003a67a
   "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+<<<<<<< HEAD
     "start": "next start"
+=======
+    "start": "next start",
+    "lint": "next lint"
+>>>>>>> 96caef8b5731e0359bc665a7d85c03e5a003a67a
   },
   "dependencies": {
     "lucide-react": "^0.468.0",
     "next": "^16.3.4",
+<<<<<<< HEAD
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
+=======
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+>>>>>>> 96caef8b5731e0359bc665a7d85c03e5a003a67a
     "next-auth": "^5.0.0-beta.29",
     "zod": "^3.25.76"
   },
   "devDependencies": {
     "@types/node": "^20.17.0",
+<<<<<<< HEAD
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",
+=======
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+>>>>>>> 96caef8b5731e0359bc665a7d85c03e5a003a67a
     "autoprefixer": "^10.4.20",
     "postcss": "^8.5.26",
     "tailwindcss": "^3.4.14",
