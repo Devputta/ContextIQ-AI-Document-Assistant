@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: dark; }
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; background: #020617; color: #f8fafc; font-family: Arial, Helvetica, sans-serif; }
+a { text-decoration: none; }
+button:disabled { cursor: not-allowed; }
+
+.markdown-content { color: #cbd5e1; font-size: .95rem; line-height: 1.75; }
+.markdown-content h1,.markdown-content h2,.markdown-content h3,.markdown-content h4,.markdown-content h5,.markdown-content h6 { color: #f8fafc; font-weight: 650; line-height: 1.25; margin: 1.5rem 0 .65rem; }
+.markdown-content h1 { font-size: 1.8rem; }.markdown-content h2 { font-size: 1.45rem; }.markdown-content h3 { font-size: 1.2rem; }
+.markdown-content p { margin: .7rem 0; }.markdown-content ul,.markdown-content ol { margin: .7rem 0; padding-left: 1.5rem; }.markdown-content ul { list-style: disc; }.markdown-content ol { list-style: decimal; }
+.markdown-content li { margin: .25rem 0; }.markdown-content a { color: #a5f3fc; text-decoration: underline; }.markdown-content blockquote { border-left: 3px solid rgba(103,232,249,.35); margin: 1rem 0; padding: .4rem 1rem; color: #94a3b8; }
+.markdown-content code { border-radius: .35rem; background: #0f172a; padding: .15rem .35rem; font-family: ui-monospace,SFMono-Regular,Menlo,monospace; font-size: .85em; }
+.markdown-content pre { overflow-x: auto; border: 1px solid rgba(255,255,255,.08); border-radius: .75rem; background: #020617; padding: 1rem; margin: 1rem 0; }
+.markdown-content pre code { background: transparent; padding: 0; }.markdown-content table { width: 100%; border-collapse: collapse; margin: 1rem 0; }
+.markdown-content th,.markdown-content td { border: 1px solid rgba(255,255,255,.1); padding: .55rem .7rem; text-align: left; }.markdown-content th { background: rgba(255,255,255,.04); color: #f8fafc; }
+.markdown-content hr { border: 0; border-top: 1px solid rgba(255,255,255,.1); margin: 1.5rem 0; }
+.toolbar{display:grid;place-items:center;border:1px solid rgba(255,255,255,.1);border-radius:.55rem;padding:.4rem;color:#cbd5e1}.toolbar:hover{background:rgba(255,255,255,.05)}.card{border:1px solid rgba(255,255,255,.1);background:rgba(255,255,255,.03);border-radius:1rem;padding:1.35rem}.field{width:100%;border:1px solid rgba(255,255,255,.1);background:#020617;border-radius:.7rem;padding:.65rem .8rem;color:white;outline:none}.field:focus{border-color:rgba(103,232,249,.4)}
